@@ -1,0 +1,57 @@
+.akshi{
+/* border: 2px solid red;*/
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.akshi a{
+    text-decoration: none;
+    padding: 6px 15px;
+    margin: 0 16px;
+
+    background-color: black;
+    color: white;
+
+    transition: .3s;
+}
+.akshi a:hover {
+    background-color:pink;
+    color: black;
+}
+.a{
+    height:90vh;
+
+    background: url('https://www.w3schools.com/w3images/architect.jpg') no-repeat;
+
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1em;
+}
+.projects img{
+    width: 100%;
+}
+.about{
+
+}
+.about.about_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1em;
+
+}
+.about .about.about_container.card{
+    .card{
+        width: 100%;
+    }
+}
+.about img{
+    width: 100%;
+}
