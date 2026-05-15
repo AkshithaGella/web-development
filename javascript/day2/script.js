@@ -33,11 +33,3 @@ while (num>0){
     console.log('np')
 }
 
-var num=125
-function is_prime(num){
-    fc=0
-    for(i=2; i<num; i++){
-        
-    }
-    
-}
